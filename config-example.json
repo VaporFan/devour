@@ -1,0 +1,26 @@
+{
+  "name": "App Name",
+  "version": "1.0",
+  "url": "https://www.domain.com",
+  "environment": "dev",
+  "steam_api": {
+    "match_history": "https://api.steampowered.com/IDOTA2Match_570/GetMatchHistory/V001/",
+	"match_details": "https://api.steampowered.com/IDOTA2Match_570/GetMatchDetails/V001/",
+	"heroes": "https://api.steampowered.com/IEconDOTA2_570/GetHeroes/v0001/",
+	"player_summaries": "https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/",
+	"game_items": "https://api.steampowered.com/IEconDOTA2_570/GetGameItems/V001/",
+	"economy_schema": "https://api.steampowered.com/IEconItems_570/GetSchema/v0001/",
+	"league_listing": "https://api.steampowered.com/IDOTA2Match_570/GetLeagueListing/v0001/",
+	"live_league_games": "https://api.steampowered.com/IDOTA2Match_570/GetLiveLeagueGames/v0001/",
+	"match_history_sequence": "https://api.steampowered.com/IDOTA2Match_570/GetMatchHistoryBySequenceNum/v0001/",
+	"team_info": "https://api.steampowered.com/IDOTA2Match_570/GetTeamInfoByTeamID/v001/",
+	"key": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  },
+  "database": {
+    "host": "127.0.0.1",
+	"port": "3306",
+	"name": "db_name",
+    "username": "db_user",
+    "password": "db_pass"
+  }
+}
