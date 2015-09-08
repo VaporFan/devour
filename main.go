@@ -16,6 +16,34 @@ import (
 
 var (
 	lastSeqNum = 1520885231
+	langs  = []string{
+		"brazilian",
+		"bulgarian",
+		"czech",
+		"danish",
+		"dutch",
+		"english",
+		"finnish",
+		"french",
+		"german",
+		"greek",
+		"hungarian",
+		"italian",
+		"japanese",
+		"korean",
+		"koreana",
+		"norwegian",
+		"polish",
+		"portuguese",
+		"romanian",
+		"russian",
+		"schinese",
+		"spanish",
+		"swedish",
+		"tchinese",
+		"thai",
+		"ukrainian"
+	}
 )
 
 func main() {
