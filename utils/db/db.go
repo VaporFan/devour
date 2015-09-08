@@ -16,7 +16,7 @@ func OpenDb(c config.Configuration) (db *sql.DB) {
 
 	var err error
 
-	db, err = sql.Open("mysql", c.Database.User+":"+c.Database.Pass+"@/"+c.Database.Name)
+	db, err = sql.Open("mysql", c.Database.User+":"+c.Database.Pass+"@tcp("+c.Database.Host+":"+c.Database.Port+")/"+c.Database.Name)
 
 	if err != nil {
 		fmt.Println(err)
